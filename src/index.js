@@ -1,5 +1,5 @@
 var obj = {
-  a: 1,
-  b: 2,
+    a: 1,
+    b: 2
 };
-window.name = `${obj}`;
+window.name = "".concat(obj);
