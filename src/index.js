@@ -1,5 +1,7 @@
+"use strict";
+exports.__esModule = true;
 var obj = {
     a: 1,
     b: 2
 };
-window.name = "".concat(obj);
+exports["default"] = obj;
