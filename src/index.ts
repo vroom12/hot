@@ -2,6 +2,9 @@ interface Window {
   [yl: string]: any;
 }
 window.hot = () => {
+  const getValue = (value: number) => {
+    console.log(value);
+  };
   const obj = {
     a: 1,
     b: 2,
@@ -9,5 +12,5 @@ window.hot = () => {
       console.log('webpack');
     },
   };
-  return obj;
+  return { obj, getValue };
 };
