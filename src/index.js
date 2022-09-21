@@ -1,3 +1,3 @@
 (function () {
-  var divClass = 'greenClass';
+  window.divClass = 'greenClass';
 })();
